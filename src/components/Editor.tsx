@@ -242,13 +242,6 @@ const Editor = () => {
           {`}`}
         </div>
 
-        <button
-          className="absolute bottom-3 right-20 py-1.5 px-3.5 bg-orange-500
-          text-white rounded-[4px] hover:bg-orange-500/90"
-          onClick={handleSolution}
-        >
-          Give up
-        </button>
 
         <button
           className="absolute bottom-3 right-3 py-1.5 px-3.5 bg-red-600
